@@ -4,7 +4,7 @@ module.exports = {
     database:{
         host: 'localhost',
         user: 'root',
-        password: '22.jaigibac.22',
+        password: 'pass',
         database: 'gestiondetransaccion'
     }
 }
