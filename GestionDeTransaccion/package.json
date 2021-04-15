@@ -1,0 +1,29 @@
+{
+  "name": "gestiondetransaccion",
+  "version": "1.0.0",
+  "description": "Gestor de transacciones ",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Javier Ibáñez",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.0-beta3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "express-mysql": "0.0.1",
+    "jquery": "^3.6.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.5.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "webpack-cli": "^4.6.0"
+  }
+}
