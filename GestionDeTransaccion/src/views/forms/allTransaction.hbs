@@ -1,0 +1,137 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <div class="card ">
+                <div class="card-body ">
+                    <h1>Transacciones</h1>
+                    <div class="col-md-10 mx-auto ">
+                        <div class="row">
+                            <div class="col-12">
+                                {{#each Transacciones}}
+
+
+                                <div class="card ">
+                                    <div class="card-body ">
+                                        <div class="row">
+                                            <div class="col-8 ">
+                                                <h5>Transacción número:</h3>
+                                            </div>
+                                            <div class=" col-4"> {{this.id}}</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8 "><label>Rut:</label></div>
+                                            <div class="  col-4"> {{this.rut}}</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8   "><label>Nombre:</label></div>
+
+                                            <div class="  col-4">{{this.nombre}}</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "> <label>Nombre de fantasia:</label></div>
+
+                                            <div class="  col-4"> {{this.nombreFantasia}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "> <label>Cantidad de sucursales</label></div>
+
+                                            <div class="  col-4">{{this.sucursales}}</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "> <label>Nombre de contacto </label> </div>
+
+                                            <div class="  col-4"> {{this.nombreContacto}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=" col-8 "> <label>Numero de telefono de contacto</label> </div>
+
+                                            <div class=" col-4">{{this.telefono}}</div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="  col-8  "> <label>Email de contacto </label> </div>
+
+                                            <div class="  col-4">{{this.email}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>Tipo de plan </label> </div>
+
+                                            <div class="  col-4">{{this.tipoPlan}}</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>Nombre de vendedor </label> </div>
+
+                                            <div class="  col-4"> {{this.vendedor}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "> <label>Fecha de compra </label> </div>
+
+                                            <div class="  col-4">{{this.fechaCompra}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>Estado de sistema</label> </div>
+
+                                            <div class="  col-4">{{this.estadoSistema}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>¿Se envio correo con instrucciones? </label>
+                                            </div>
+
+                                            <div class="  col-4">{{this.EnvioCorreo}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>¿Se recibió el certificado?</label> </div>
+
+                                            <div class="  col-4">{{this.estado}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>Fecha de inicio de Boleta </label> </div>
+
+                                            <div class="  col-4">{{this.fechaInicioBoleta}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=" col-8  "><label> Fecha de fin de boleta</label> </div>
+
+                                            <div class="  col-4">{{this.fechaFinBoleta}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>Fecha de inicio de factura</label> </div>
+
+                                            <div class="  col-4">{{this.fechaInicioFactura}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>Fecha de fin de factura</label> </div>
+
+                                            <div class="  col-4">{{this.fechaFinFactura}} </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="  col-8  "><label>¿Esta en linea? </label> </div>
+
+                                            <div class="  col-4"> {{this.EstaEnLinea}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>¿Esta emitiendo DTE? </label> </div>
+
+                                            <div class="  col-4">{{this.emisionDTE}} </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="  col-8  "><label>comentarios</label> </div>
+
+                                            <div class="  col-4"> {{this.comentarios}}</div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                {{/each}}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

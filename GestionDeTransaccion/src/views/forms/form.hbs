@@ -1,0 +1,125 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <div class="card ">
+                <div class="card-body clase">
+                    <div class="col-md-12 mx-auto ">
+                        <form class="row g-3" action="/Transactions/add" method="POST">
+                            <div class="col-md-5">
+                                <label class="form-label">Razon social</label>
+                                <input type="text" class="form-control" name="nombre" id="nombre"
+                                    placeholder="Razon social...">
+                            </div>
+                            <div class="col-md-7">
+                                <label class="form-label">Rut</label>
+                                <input type="text" class="form-control" id="Rut" name="Rut" placeholder="Rut...">
+                            </div>
+                            <div class="col-8">
+                                <label class="form-label">Nombre de fantasia</label>
+                                <input type="text" class="form-control" id="nombreFantasia" name="nombreFantasia"
+                                    placeholder="Nombre de fantasia...">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Tipo de plan</label>
+                                <input type="text" class="form-control" id="tipoPlan" name="tipoPlan"
+                                    placeholder="Tipo de plan...">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Nombre de contacto</label>
+                                <input type="text" class="form-control" id="nombreContacto" name="nombreContacto"
+                                    placeholder="Nombre...">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Número de telefono de contacto</label>
+                                <input type="text" class="form-control" id="telefono" name="telefono"
+                                    placeholder="Número de contacto...">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Correo electronico de contacto</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Correo electronico...">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label class="form-label">Nombre del vendedor</label>
+                                <input type="text" class="form-control" id="vendedor" name="vendedor"
+                                    placeholder="Nombre del vendedor...">
+                            </div>
+
+                            <div class="col-md-6">
+                                <label class="form-label">Estado del sistema</label>
+                                <input type="text" class="form-control" id="estadoSistema" name="estadoSistema"
+                                    placeholder="Estado del sistema...">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">Cantidad de sucursales</label>
+                                <input type="number" class="form-control" id="sucursales" name="sucursales"
+                                    placeholder="Cantidad de sucursales...">
+                            </div>
+
+                            <div class="col-md-4">
+                                <label class="form-label">Fecha de compra</label>
+                                <input type="date" class="form-control" id="fechaCompra" name="fechaCompra">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Fecha de inicio de boleta</label>
+                                <input type="date" class="form-control" id="fechaInicioBoleta" name="fechaInicioBoleta">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Fecha de fin de boleta</label>
+                                <input type="date" class="form-control" id="fechaFinBoleta" name="fechaFinBoleta">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Fecha de inicio de factura</label>
+                                <input type="date" class="form-control" id="fechaInicioFactura"
+                                    name="fechaInicioFactura">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Fecha de fin de factura</label>
+                                <input type="date" class="form-control" id="fechaFinFactura" name="fechaFinFactura">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">¿Se envio el correo?</label>
+                                <select id="EnvioCorreo" name="EnvioCorreo" class="form-select">
+                                    <option value="Si" selected>Si</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">¿Se recibió el certificado? </label>
+                                <select id="estado" name="estado" class="form-select">
+                                    <option value="Si" selected>Si</option>
+                                    <option value="No">No</option>
+                                    <option value="Na">No aplica</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">¿Esta en linea?</label>
+                                <select id="EstaEnLinea" name="EstaEnLinea" class="form-select">
+                                    <option value="Si" selected>Si</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">¿Esta emitiendo DTE?</label>
+                                <select id="emisionDTE" name="emisionDTE" class="form-select">
+                                    <option value="Si" selected>Si</option>
+                                    <option value="No">No</option>
+                                    <option value="Na">No aplica</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="form-label">Comentarios</label>
+                                <textarea class="form-control" id="comentarios" name="comentarios" rows="3"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
